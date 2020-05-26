@@ -9,8 +9,8 @@
 	<script>
 		
 	
-	let getRandomNumber = function(start, end ) {
-	return Math.floor((Math.random() * (end - start)) + start);// end-start weil range nur von 0 bis +? möglich(end 30 minus -5start)plus -5
+	let getRandomNumber = function(start, end ) {//let = lassen wir getRandomNumber=function sein
+	return Math.floor((Math.random() * (end - start)) + start);// end-start weil range nur von 0 bis +? möglich(end 30 minus -5start)plus -5, math.floor rundet die Dezimalen ab
 }
 	let randomNumber = getRandomNumber(-5, 25);
 	if (randomNumber >= -5 && randomNumber <= 10) {

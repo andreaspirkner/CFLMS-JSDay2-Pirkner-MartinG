@@ -9,8 +9,8 @@
 	<script>
        //var input=[1, 7, -3, 9];
 	   
-	   function max(input) {
-       if (toString.call(input) !== "[object Array]") 
+	   function max(input) {//maximjum value for an input element
+       if (toString.call(input) !== "[object Array]")//toString returns string representing an object, with .call you can write a method that can be used on different objects
         return false;
 	return Math.max.apply(null, input);
        }
