@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="name" content="content" charset="utf-8">
+	<title>Highest Value in an Array</title>
+</head>
+<body>
+
+	<script>
+       //var input=[1, 7, -3, 9];
+	   
+	   function max(input) {
+       if (toString.call(input) !== "[object Array]") 
+        return false;
+	return Math.max.apply(null, input);
+       }
+	   
+	   document.write(("The highest number is ") + max([ 1, 7, -3, 9]));
+	   
+	  // console.log(max([1, 7, -3, 9]));
+       
+	   
+	   
+        
+	</script>
+
+</body>
+</html>
